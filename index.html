@@ -4,15 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confetti Button</title>
+    <title>Confetti Experience | Premium Studio</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A premium confetti studio with multiple visual effects and glassmorphism UI.">
+    <meta name="author" content="Rajjit Laishram">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Canvas Confetti Library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <button class="confetti-button">Hello</button>
-    </div>
+    <header class="header">
+        <h1>Confetti Studio</h1>
+        <p>Premium celebration effects for modern web apps</p>
+    </header>
+
+    <main class="grid-container">
+        <!-- Ice Burst (Main Effect) -->
+        <div class="card" id="btn-ice">
+            <i class="fas fa-snowflake" style="color: #00f2fe;"></i>
+            <h3>Ice Burst</h3>
+            <p>A crisp cyan and white celebration</p>
+            <button class="btn">Launch</button>
+        </div>
+
+        <!-- Classic Burst -->
+        <div class="card" id="btn-classic">
+            <i class="fas fa-gift" style="color: #e74c3c;"></i>
+            <h3>Classic Party</h3>
+            <p>The timeless multicolor explosion</p>
+            <button class="btn">Celebrate</button>
+        </div>
+
+        <!-- Side Cannons -->
+        <div class="card" id="btn-cannons">
+            <i class="fas fa-bullhorn" style="color: #f1c40f;"></i>
+            <h3>Side Cannons</h3>
+            <p>Double-sided wide spread effect</p>
+            <button class="btn">Fire</button>
+        </div>
+
+        <!-- Realistic -->
+        <div class="card" id="btn-realistic">
+            <i class="fas fa-atom" style="color: #3498db;"></i>
+            <h3>Realistic Physics</h3>
+            <p>Layered particles with gravity</p>
+            <button class="btn">Simulate</button>
+        </div>
+
+        <!-- Fireworks -->
+        <div class="card" id="btn-fireworks">
+            <i class="fas fa-fireworks" style="color: #9b59b6;"></i>
+            <h3>Night Sky</h3>
+            <p>Continuous firework simulation</p>
+            <button class="btn" id="fireworks-toggle">Start</button>
+        </div>
+
+        <!-- School Pride -->
+        <div class="card" id="btn-pride">
+            <i class="fas fa-graduation-cap" style="color: #2ecc71;"></i>
+            <h3>School Pride</h3>
+            <p>Elegant gold and silver burst</p>
+            <button class="btn">Honored</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        &copy; 2026 Rajjit Laishram. Licensed under MIT.
+    </footer>
+
     <script src="js/index.js"></script>
 </body>
 
